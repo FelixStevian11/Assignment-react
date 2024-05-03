@@ -1,0 +1,47 @@
+
+.image {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: white;
+    width: 500px;
+    height: 140px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+}
+
+.name {
+    color: black;
+}
+
+.price {
+    margin: 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    border-color: lightblue;
+}

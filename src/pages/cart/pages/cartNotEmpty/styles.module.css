@@ -1,0 +1,38 @@
+.divContainer {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div2 {
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.buy {
+    font-size: 36px;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+.buy:hover {
+    cursor: pointer;
+    border-color: lightblue;
+}
